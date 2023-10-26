@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Fuggles&display=swap');
+
+/* Alinhameno de texto */
+.alinhamento-direita{
+    text-align: right;
+}
+
+.alinhamento-esquerda{
+    text-align: left;
+}
+
+.centralizar-container{
+    text-align: center;
+    width: 200px;
+    border: 4px solid salmon;
+    margin: 10px;
+    
+}
+
+.alinhamento-justificado{
+    text-align: justify;
+    color: chocolate;
+    border: 4px solid salmon;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* text decoration */
+.underline{
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.overline{
+    text-decoration: overline;
+}
+
+.remove-underline{
+    text-decoration: none;
+    color: black;
+}
+
+/* espaçamento entre letras */
+.spacing{
+    letter-spacing: 10px;
+}
+
+/* Fontes */
+.fonte-serif{
+    font-family: serif;
+}
+
+.fonte-sans-serif{
+    font-family: sans-serif;
+}
+
+.fonte-monospace{
+    font-family: monospace;
+}
+
+.fonte-cursive{
+    font-family: cursive;
+}
+
+.fonte-fantasy{
+    font-family: fantasy;
+}
+
+.trazendo-familiadefonte{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Trazendo uma fonte do Google */
+
+.importando-fonte{
+    font-family: 'Croissant One', cursive;
+}
+
+.importando-fonte2{
+    
+    font-family: 'Croissant One', cursive;
+    font-family: 'Fuggles', cursive;
+}
+
+/* Estilo de fonte */
+
+.normal{
+    font-style: normal;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.oblique{
+    font-style: oblique;
+}
+
+/* Espessura da Fonte */
+.lighter, .bold, .bolder{
+    font-family: helvetica;
+}
+
+.lighter{
+    font-weight: 100;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.bolder{
+    font-weight: 900;
+}
+
+/* Tamanho da fonte */
+.tamanho-30px{    
+    font-size: 30px;
+}
+
+.tamanho-150px{
+    font-size: 150px;
+}
+
+.xx-small{
+    font-size: xx-small;
+}
+
+.xx-large{
+    font-size: xx-large;
+}
+
+/* Diplay: Bloco Embutido */
+
+.inline-block{
+    height: 500px;
+    width: 500px;
+    background-color: burlywood;
+    font-size: xx-large;
+    color: white;
+    margin: 15px;
+    display: inline-block;
+}
+
+.block{
+    background-color: darkmagenta;
+    font-size: xx-large;
+    color: white;
+    margin: 10px;
+    display: block;
+}
+
+/* Escondendo Elemento  */
+.escondendo{
+    display: none;
+}
+
+/* Posição Estática - ele segue o fluxo do HTML, static não é afetado por tod, left, right, bottom */
+
+.static{
+    background-color: blueviolet;
+    color: white;
+    width: 100px;
+    height: 100px;
+    position: static;
+}
+
+/* Posição Relativa */
+
+.relative{
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 50px;
+
+}
+
+/* posição absoluta  */
+
+.absolute{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #785;
+    color: white;
+    top: 2px;
+    right: 2px;
+}
+
+
+/* Position relative + absolute  */
+.bloco-relativo{
+    width: 250px;
+    height: 250px;
+    border: 2px solid blue;
+    margin-top: 100px;
+    position: relative;
+}
+
+.bloco-absoluto-1, .bloco-absoluto-2{
+    width: 70px;
+    height: 70px;
+    background-color: brown;
+    position: absolute;
+}
+
+.bloco-absoluto-1{
+    top: 10px;
+    left: 10px;
+}
+.bloco-absoluto-2{
+    bottom: 10px;
+    right: 10px;
+
+}
+
+/* Posição fixada */
+.bloco-fixado{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: fixed;
+    top: 100px;
+    color: white;
+}
+
+/* Posição sticky  */
+.sticky{
+    width: 150px;
+    height: 150px;
+    background-color: firebrick;
+    color: aliceblue;
+    border: 2px solid black;
+    position: sticky;
+    top: 10px;
+    margin-left: 1500px;
+}
+
+
+/* Z-Index - Eu aproveitei o style do ".bloco-relativo" da Position relative + absolute  */
+
+.bloco-absoluto-5, .bloco-absoluto-6, .bloco-absoluto-7{
+    width: 60px;
+    height: 60px;
+    background-color: coral;
+    position: absolute;
+}
+
+.bloco-absoluto-5{
+    z-index: 3;
+    top: 0;
+    left: 0;
+}
+
+.bloco-absoluto-6{
+    z-index: 2;
+    top: 15px;
+    left: 15px;
+    background-color: navy;
+}
+
+.bloco-absoluto-7{
+    z-index: 1;
+    top: 30px;
+    left: 30px;
+    background-color: fuchsia;
+}

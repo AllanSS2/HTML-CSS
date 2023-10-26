@@ -1,0 +1,167 @@
+/* Background img  */
+
+.bgimg{
+    background-image: url(/Background-img/img/MicrosoftTeams-image\ \(1\).png);
+    padding: 10px;
+    color: yellow;
+}
+
+.bgimg-naocentral, .bgimg-central{
+    background-image: url(../img/soccer-cristiano-ronaldo-lionel-messi-neymar-wallpaper-preview.jpg);
+    width: 400px;
+    height: 400px;
+
+}
+
+.bgimg-central{
+    background-position: center;
+    background-size: cover;
+    
+}
+
+/* altura e largura */
+.altura-largura{
+    height: 500px;
+    width: 200px;
+    background-color: blueviolet;
+}
+
+.altura-largura-nova{
+    height: 200px;
+    background-color: black;
+}
+
+/* padding */
+.sem-padding{
+    background-color: aqua;
+    padding: none;
+    width: 200px;
+    height: 200px;
+
+}
+
+.com-padding{
+    width: 300px;
+    height: 300px;
+    background-color: greenyellow;
+    padding: 10px;
+}
+
+/* padding lados */
+.padding-lados{
+    background-color: crimson;
+    color: white;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 5px;
+    padding-bottom: 40px;
+}
+
+/* Shorthand Properties */
+.shorthand-padding{
+    background-color: gray;
+    padding: 6px 12px 18px 24px;
+}
+
+.shorthand-padding2{
+    background-color: #555;
+    color: blue;
+    padding: 10px 20px;  
+}
+
+/* Borda */
+.border{
+    border: 5px solid blue;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.border2{
+    border: 2px dashed green;
+    padding: 25px;
+}
+
+/* Borda individual por lados */
+.border-esquerda{
+    border-left: 10px solid yellowgreen;
+    background-color: #111;
+    color: white;
+    padding: 25px;
+}
+
+.border-inferior{
+    border-bottom: 10px solid yellowgreen;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+.border-direita{
+    border-right: 10px dashed pink;
+    background-color: black;
+    color: pink;
+    padding: 25px;
+}
+.border-superior{
+    border-top: 10px dotted yellowgreen;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+/* borda diferente em todos os lados ao mesmo tempo */
+.border-total{
+    border-left: 5px double rosybrown;
+    border-right: 5px solid yellow;
+    border-top: 5px dotted salmon;
+    border-bottom: 5px dashed orange;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+/* Borda arredondada */
+.paragrafo-arredondado{
+    border: 5px solid red;
+    background-color: burlywood;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.paragrafo-arredondado2{
+    background-color: burlywood;
+    color: royalblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+/* Margem */
+.margem{
+    margin: 10px;
+    background-color: darkblue;
+    color: yellow;
+}
+
+.margem-topo{
+    margin-top: 70px;
+    background-color: dodgerblue;
+    padding: 10px;
+}
+
+.margem-diferenciada{
+    background-color: cornflowerblue;
+    margin: 7px 10px 9px 30px;
+}
+
+/* Box model - juntos */
+.box-model{
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 200px;
+    padding: 10px 10px 15px 25px;
+    border: 5px solid violet;
+    border-radius: 10px;
+    margin: auto;
+}
